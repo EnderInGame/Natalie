@@ -1,0 +1,54 @@
+body {
+    font-family: 'Georgia', serif; /* Expressive serif font */
+    background-color: #2c2040; /* Dark purple background */
+    color: #ffffff; /* White text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #563d7c; /* Darker purple header */
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.5em;
+    font-family: 'Cursive', cursive; /* Fancy cursive font for header */
+}
+
+nav {
+    margin: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #ff6f61; /* Highlight color on hover */
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #3d315b; /* Darker purple content background */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Darker shadow */
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+footer {
+    margin: 20px;
+    font-size: 0.9em;
+    color: #cccccc; /* Lighter gray text for footer */
+    text-align: center;
+}
